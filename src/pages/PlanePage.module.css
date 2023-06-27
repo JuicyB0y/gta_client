@@ -1,0 +1,40 @@
+.plane {
+  padding: 50px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 80px;
+  place-items: center;
+  min-height: 50vh;
+}
+
+.descContent {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.title {
+  margin-top: 40px;
+}
+
+.buyBtn {
+  margin-bottom: 30px;
+}
+
+.desc {
+  line-height: 24px;
+  color: rgb(148, 163, 184);
+}
+
+.price {
+  margin: 30px 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #2fb5fc;
+}
+
+.image {
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border-radius: 20px;
+}
