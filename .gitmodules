@@ -1,0 +1,3 @@
+[submodule "client"]
+	path = client
+	url = https://github.com/JuicyB0y/gta_client.git
